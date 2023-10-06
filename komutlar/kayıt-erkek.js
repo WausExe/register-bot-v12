@@ -34,7 +34,6 @@ module.exports.run = async (client, message, args) => {
 
   db.push(`kullanici.${üye.id}.isimler`, {
     İsim: isim,
-    Yaş: yaş,
     Rol: id.erkekrol
   });
 
